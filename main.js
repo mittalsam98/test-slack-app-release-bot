@@ -1,9 +1,9 @@
 console.log('hdllde');
 
-console.log('added secomd console');
 
+// what is this bro 
 
 
 console.log('added more console after neon db minor update');
 
-// what is this bro
+console.log('added secomd console');
