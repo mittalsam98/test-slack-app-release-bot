@@ -3,6 +3,23 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function(nums, target) {
-    
+var twoSum = function (nums, target) {
+  let len = nums.length;
+  const a ={};
+
+   for(let i=0; i<len; i++){
+    if(!a[nums[i]]){
+        a[nums[i]]=i
+    }
+  }
+
+  console.log({a})
+
+  for(let i=0; i<len; i++){
+    const diff  = target- nums[i];
+    if(a[diff] && a[diff]!==i){
+        return [i, a[diff]]
+    }
+  }
+
 };
