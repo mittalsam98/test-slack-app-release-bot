@@ -15,6 +15,8 @@ var twoSum = function (nums, target) {
 
   console.log({a})
 
+  console.log('baap ka sab badl lega');
+
   for(let i=0; i<len; i++){
     const diff  = target- nums[i];
     if(a[diff] && a[diff]!==i){
